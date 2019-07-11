@@ -12,6 +12,7 @@ namespace NuGetDownloadCountRetriever
 
         public PackageInfoRetriever(HttpClient client)
         {
+            /// Source for this url was taken from: https://github.com/NuGet/Home/issues/2596
             client.BaseAddress = new Uri("https://api-v2v3search-0.nuget.org/query", UriKind.Absolute);
             this.httpClient = client;
         }
