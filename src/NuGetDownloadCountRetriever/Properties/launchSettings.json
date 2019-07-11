@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NuGetDownloadCountRetriever": {
+      "commandName": "Project",
+      "commandLineArgs": "Newtonsoft.Json Microsoft.AspNetCore.Mvc"
+    }
+  }
+}
